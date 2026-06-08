@@ -1,145 +1,88 @@
-# Suraj Sah Kanu
+# 👋 Suraj Sah Kanu
 
-**ML Engineer · Medical Imaging Researcher · AI Enthusiast**
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=safari&logoColor=white)](https://surajsahkanu.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahkanu34)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sahkanu34)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:surajsah132@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/suraj_sah_kanu)
+**ML Engineer · AI Engineer · LLM / Agent Systems Developer**
 
 ---
 
-## About
+## 🚀 About Me
 
-I'm a Computer Science student and ML Engineer at [NAAMII](https://www.naamii.org.np/) (Nepal Applied Mathematics and Informatics Institute), Kathmandu, Nepal. My work sits at the intersection of deep learning and healthcare — building AI systems that make medical diagnostics more accurate and accessible.
+I'm a Computer Science student and ML Engineer focused on building **LLM-powered applications, AI agents, and production-ready AI systems**. My work is centered around designing intelligent workflows using modern AI frameworks like LangChain and LangGraph.
 
 ```yaml
-current_role   : ML Engineer & Medical Imaging Researcher @ NAAMII
-focus          : Medical image segmentation, disease detection, multi-modal imaging
-building       : AI-powered diagnostic tools and production ML systems
-open_to        : Research collaborations, open-source projects, consulting
+current_role   : ML Engineer & AI Systems Developer
+focus          : LLM applications, AI agents, workflow automation, RAG systems
+building       : Agentic AI systems, RAG pipelines, production ML/LLM apps
+open_to        : AI engineering roles, collaborations, open-source projects, consulting
 ```
 
----
+🧠 Areas of Work
 
-## Areas of Work
+🤖 AI Agents & LLM Systems
+Designing autonomous AI agents, tool-using systems, and multi-step reasoning workflows.
 
-**Medical Imaging Research**
-Deep learning models for image segmentation, disease detection, multi-modal imaging analysis, and healthcare AI applications.
+🧩 LangChain / LangGraph Development
+Building structured LLM pipelines, graph-based reasoning systems, and modular AI applications.
 
-**Computer Vision**
-Visual data understanding, object detection and tracking, image processing pipelines, and real-time video analytics.
+📚 RAG Systems & Vector Databases
+Implementing retrieval-augmented generation using embeddings and vector databases like FAISS, Pinecone, and ChromaDB.
 
-**Deep Learning**
-CNN and Transformer architectures, transfer learning, model optimization, and production deployment.
+📊 Machine Learning Engineering
+Model deployment, API integration, optimization, and production-level ML systems.
 
-**Data Analytics**
-Complex dataset analysis, statistical modeling, predictive analytics, and data visualization.
+⚙️ Core Expertise
 
----
+  LangChain / LangGraph workflow design
+  AI Agent architectures (tool calling, planning, memory systems)
+  Retrieval-Augmented Generation (RAG pipelines)
+  Vector databases (FAISS, Pinecone, ChromaDB)
+  LLM integration (OpenAI, open-source LLMs)
+  Backend AI systems (FastAPI, Django, Flask)
 
-## Research Interests
+## ⚙️ Tech Stack
 
-- Medical Image Segmentation — precise anatomical structure delineation
-- Multi-Modal Imaging — fusion of different imaging modalities
-- Deep Learning for Healthcare — AI-powered diagnostic systems
-- Explainable AI — interpretable models for medical applications
-- Transfer Learning — adapting pre-trained models to medical domains
-
----
-
-## Technical Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-**ML / AI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-**Web & APIs**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
-**DevOps & Cloud**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white)
+### 🧑‍💻 Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
-## GitHub Stats
+### 📊 Data Science & Machine Learning
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 
-<div align="center">
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sahkanu34&show_icons=true&count_private=true&theme=default&hide_border=true&include_all_commits=true" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=sahkanu34&theme=default&hide_border=true" />
-</div>
+### 🤖 AI / LLM & Deep Learning Stack
 
-<div align="center">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahkanu34&layout=compact&theme=default&hide_border=true&langs_count=8&hide=html,css,jupyter%20notebook" />
-</div>
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge)
 
-<div align="center">
-  <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=sahkanu34&theme=minimal&hide_border=true&custom_title=Contribution%20Activity" />
-</div>
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-0B3D91?style=for-the-badge)
 
----
-
-## Featured Project
-
-[![Neuro Scan AI](https://github-readme-stats.vercel.app/api/pin/?username=sahkanu34&repo=Neuro_Scan_AI&theme=default&hide_border=true)](https://github.com/sahkanu34/Neuro_Scan_AI)
-
-→ [View all repositories](https://github.com/sahkanu34?tab=repositories)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 
 ---
 
-## Current Goals
+### 🧠 Vector Databases & RAG
 
-| Learning | Research | Building |
-|---|---|---|
-| Advanced ML/AI | Medical Imaging @ NAAMII | Portfolio Projects |
-| Computer Vision | Deep Learning for Healthcare | AI-Powered Solutions |
-| Cloud & DevOps | Multi-Modal Analysis | Production ML Systems |
-
----
-
-## Open To
-
-- **Collaborations** — Research projects, open source, ML initiatives
-- **Discussions** — AI/ML, medical imaging, computer vision
-- **Consulting** — Healthcare AI, deep learning, MLOps
-- **Mentoring** — Students, junior developers, AI enthusiasts
-
-Feel free to reach out at [surajsah132@gmail.com](mailto:surajsah132@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sahkanu34).
+![FAISS](https://img.shields.io/badge/FAISS-Similarity%20Search-0052CC?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-Vector%20DB-00C7B7?style=for-the-badge)
+![Weaviate](https://img.shields.io/badge/Weaviate-Vector%20Database-3A0CA3?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-Lightweight%20Vector%20DB-FF4B4B?style=for-the-badge)
 
 ---
 
-<div align="center">
+### 👁️ Computer Vision
 
-![Made with ❤️ in Nepal](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20in-Nepal-DC143C?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-</div>
+### 🛠️ Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
