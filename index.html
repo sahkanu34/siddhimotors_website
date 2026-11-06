@@ -366,8 +366,94 @@ section{padding:clamp(44px,7vw,72px) 0}
 @media (max-height:520px) and (max-width:780px){.cbp{height:calc(100dvh - 96px);bottom:78px}.cbl{bottom:78px}}
 @media print{.top,.dbar,.mbar,.wafab,.cbl,.cbp,.skip,.dots,.fl{display:none!important}.reveal{opacity:1!important;transform:none!important}.hero{background:none!important;color:#000!important}section{padding:20px 0}}
 </style>
+
+<style id="diwali-pamphlet-styles">
+  .diwali-pamphlet-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2147483000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    background: rgba(10, 5, 8, .86);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .25s ease, visibility .25s ease;
+  }
+  .diwali-pamphlet-overlay.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .diwali-pamphlet-dialog {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min(92vw, 620px);
+    max-height: 92vh;
+  }
+  .diwali-pamphlet-image {
+    display: block;
+    max-width: 100%;
+    max-height: 92vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 18px 70px rgba(0,0,0,.55);
+  }
+  .diwali-pamphlet-close {
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #a80016;
+    color: #fff;
+    font: 700 25px/1 Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 3px 12px rgba(0,0,0,.35);
+  }
+  .diwali-pamphlet-close:focus-visible {
+    outline: 3px solid #ffd34e;
+    outline-offset: 3px;
+  }
+  @media (max-width: 600px) {
+    .diwali-pamphlet-overlay { padding: 12px; }
+    .diwali-pamphlet-dialog { width: 96vw; max-height: 94vh; }
+    .diwali-pamphlet-image { max-height: 94vh; }
+    .diwali-pamphlet-close { top: -9px; right: -7px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .diwali-pamphlet-overlay { transition: none; }
+  }
+</style>
+
 </head>
 <body>
+
+<!-- Siddhi Motors festive pamphlet popup: shown on every page load/refresh -->
+<div class="diwali-pamphlet-overlay" id="diwaliPamphletOverlay"
+     role="dialog" aria-modal="true" aria-label="Siddhi Motors Diwali and Chhath greetings">
+  <div class="diwali-pamphlet-dialog">
+    <button class="diwali-pamphlet-close" id="diwaliPamphletClose"
+            type="button" aria-label="Close festive pamphlet">&times;</button>
+    <img
+      class="diwali-pamphlet-image"
+      src="https://github.com/sahkanu34/siddhimotors_website/blob/main/Siddhi_Motors_Diwali_Chhath_Pamphlet.png?raw=true"
+      alt="Siddhi Motors wishes you a happy Diwali and Chhath"
+      fetchpriority="high">
+  </div>
+</div>
+
 <a class="skip" href="#about">Skip to content</a>
 <div class="dbar" aria-label="Announcements"><div class="mq"><div class="mg"><span>Delivery all over Nepal</span><span>IRD Certified VCTS</span><span>Delivery to all 7 provinces</span><span>Parts for Tata Ace, Tata Magic, Mahindra Maximo and Ashok Leyland Dost</span><span>Fitment help before you buy</span><span>Order by phone, WhatsApp, email or at our Birgunj shop</span><span>Birgunj-11, Parsa, Nepal</span><a href="https://www.google.com/maps/search/?api=1&query=Siddhi+Motors%2C+Birgunj-11%2C+Parsa%2C+Nepal" target="_blank" rel="noopener">View our location on Google Maps</a></div><div class="mg" aria-hidden="true"><span>Delivery all over Nepal</span><span>IRD Certified VCTS</span><span>Delivery to all 7 provinces</span><span>Parts for Tata Ace, Tata Magic, Mahindra Maximo and Ashok Leyland Dost</span><span>Fitment help before you buy</span><span>Order by phone, WhatsApp, email or at our Birgunj shop</span><span>Birgunj-11, Parsa, Nepal</span><a href="https://www.google.com/maps/search/?api=1&query=Siddhi+Motors%2C+Birgunj-11%2C+Parsa%2C+Nepal" target="_blank" rel="noopener" tabindex="-1">View our location on Google Maps</a></div></div></div>
 <header class="top"><div class="wrap">
@@ -699,5 +785,42 @@ s.addEventListener('mouseenter',pause);s.addEventListener('mouseleave',play);
 document.addEventListener('visibilitychange',function(){document.hidden?pause():play()});
 show(0);run();})();
 </script>
+
+<script>
+(function () {
+  var overlay = document.getElementById("diwaliPamphletOverlay");
+  var closeButton = document.getElementById("diwaliPamphletClose");
+  if (!overlay || !closeButton) return;
+
+  var timer;
+  var closed = false;
+
+  function closePamphlet() {
+    if (closed) return;
+    closed = true;
+    clearTimeout(timer);
+    overlay.classList.add("is-hidden");
+    window.setTimeout(function () {
+      if (overlay && overlay.parentNode) overlay.parentNode.removeChild(overlay);
+    }, 300);
+  }
+
+  closeButton.addEventListener("click", closePamphlet);
+
+  // Close if a visitor clicks the dark area outside the pamphlet.
+  overlay.addEventListener("click", function (event) {
+    if (event.target === overlay) closePamphlet();
+  });
+
+  // Allow keyboard dismissal.
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") closePamphlet();
+  }, { once: true });
+
+  // Automatically close after five seconds on every fresh page load.
+  timer = window.setTimeout(closePamphlet, 5000);
+})();
+</script>
+
 </body>
 </html>
